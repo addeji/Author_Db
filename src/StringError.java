@@ -39,7 +39,7 @@ public class StringError {
         return arr.replaceAll("[a-m]", "").length() + "/" + arr.length();
     }
 
-    //remove lowest rating with lowest index
+    //remove lowest rating
     public static int[] removeSmallest(int[] arr) {
         if (arr.length == 0) {
             return new int[0];
